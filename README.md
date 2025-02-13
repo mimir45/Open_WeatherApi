@@ -2,7 +2,8 @@
 
 ---
 ### Overall Architecture
-![Overall Architecture](assets/overall-architecture.jpg)
+![overall-architecture](https://github.com/user-attachments/assets/1a816dd9-a19a-40ec-ada9-3051dd20f89d)
+
 
 ### The service provides an API
 #### `WeatherAPI`
@@ -63,10 +64,11 @@ Docker compose creates 3 replicas (instances) of the application on port range 9
 #### You can reach the open-api-ui via  `http://{HOST}:{9595-9597}/swagger-ui.html`
 ### Prometheus
 #### You can reach prometheus page via `http://{HOST}:9090`
-![Prometheus 1](assets/prometheus1.jpg) ![Prometheus 2](assets/prometheus2.jpg)
+![prometheus1](https://github.com/user-attachments/assets/a339b322-095f-45c2-9d5a-70559e90e6c4) ![prometheus2](https://github.com/user-attachments/assets/ce62258f-e169-46ec-a49f-8f5cba3824ae)
 ### Grafana
 #### You can reach grafana page via `http://{HOST}:3000` - GF_SECURITY_ADMIN_PASSWORD=admin
-![Grafana](assets/grafana.jpg)
+![grafana](https://github.com/user-attachments/assets/d4706855-29d5-494c-ab8b-04d229716cb3)
+
 
 ---
 ## Maven Run
