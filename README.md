@@ -59,7 +59,7 @@ $ cd open-weather
 $ docker-compose up -d
 ```
 
-Docker compose creates 3 replicas (instances) of the application on port range 9595-9597
+Docker compose creates 2 replicas (instances) of the application on port range 9595-9597
 
 #### You can reach the open-api-ui via  `http://{HOST}:{9595-9597}/swagger-ui.html`
 ### Prometheus
